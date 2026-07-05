@@ -15,3 +15,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Assignment reference files
+ASSIGNMENT_SUPPORT_GUIDE.md
+Grader_Rubric - MLOps Assignment.xlsx
