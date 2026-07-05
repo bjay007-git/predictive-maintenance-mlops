@@ -62,6 +62,25 @@ Evidently AI used to compare:
 
 SHAP analysis performed to identify sensor drivers for each failure class.
 
+## Exploratory Data Analysis
+
+Class imbalance and sensor distribution analysis.
+
+![EDA Distributions](artifacts/eda_distributions.png)
+
+## Model Explainability - SHAP Analysis
+
+SHAP was used to interpret the tuned model predictions for each failure class.
+
+![SHAP Analysis](artifacts/shap_per_class.png)
+
+## Data Drift Monitoring
+
+Evidently AI reports were generated to monitor production data drift.
+
+- [Stable Production Batch Drift Report](artifacts/drift_current.html)
+- [Stress Batch Drift Report](artifacts/drift_stress.html)
+
 ## Key Learning
 
 Valid data can still drift after deployment.  
